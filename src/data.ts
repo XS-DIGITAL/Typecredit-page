@@ -48,7 +48,7 @@ export const TESTIMONIALS: Testimonial[] = [
     comment: '“I got my first loan of ₦20,000 within minutes when my stock was stuck. Now my limit is ₦150,000. TypeCredit changed everything for my weekly restocking!”',
     amount: '₦150,000 Limit',
     rating: 5,
-    avatar: '/src/assets/images/avatar_amara_1789731864203.jpg',
+    avatar: '/assets/images/avatar_amara_1789731864203.jpg',
     verified: true,
   },
   {
@@ -59,7 +59,7 @@ export const TESTIMONIALS: Testimonial[] = [
     comment: '“No stress, no hidden charges. The setup was super easy and everyone is eligible. Funds landed directly into my Kuda account in less than 3 minutes.”',
     amount: '₦280,000 Limit',
     rating: 5,
-    avatar: '/src/assets/images/avatar_tunde_1789731882199.jpg',
+    avatar: '/assets/images/avatar_tunde_1789731882199.jpg',
     verified: true,
   },
 ];

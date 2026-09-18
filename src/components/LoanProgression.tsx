@@ -177,7 +177,7 @@ export const LoanProgression: React.FC<LoanProgressionProps> = ({ onOpenDownload
             {/* Visual Image Card */}
             <div className="relative rounded-[32px] overflow-hidden border border-[#d6ecd6] shadow-md bg-white">
               <img
-                src="/src/assets/images/loan_growth_visual_1789731849861.jpg"
+                src="/assets/images/loan_growth_visual_1789731849861.jpg"
                 alt="Visual credit limit progression from 20k to 300k"
                 className="w-full h-56 object-cover"
                 referrerPolicy="no-referrer"

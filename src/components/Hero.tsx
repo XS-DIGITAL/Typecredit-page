@@ -105,7 +105,7 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Photo Frame */}
               <div className="relative rounded-[36px] overflow-hidden border-4 border-white shadow-[0_24px_50px_-12px_rgba(30,70,30,0.22)] bg-white">
                 <img
-                  src="/src/assets/images/hero_typecredit_1789731820441.jpg"
+                  src="/assets/images/hero_typecredit_1789731820441.jpg"
                   alt="Delighted Nigerian professional receiving instant loan on TypeCredit"
                   className="w-full h-[360px] object-cover object-center"
                   referrerPolicy="no-referrer"
@@ -156,13 +156,13 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="absolute -bottom-4 -left-4 sm:-left-6 bg-white rounded-full px-3.5 py-2 border border-[#d1e8d1] shadow-lg flex items-center gap-2">
                 <div className="flex -space-x-1.5">
                   <img
-                    src="/src/assets/images/avatar_amara_1789731864203.jpg"
+                    src="/assets/images/avatar_amara_1789731864203.jpg"
                     alt="Amara borrower"
                     className="w-6 h-6 rounded-full border border-white object-cover"
                     referrerPolicy="no-referrer"
                   />
                   <img
-                    src="/src/assets/images/avatar_tunde_1789731882199.jpg"
+                    src="/assets/images/avatar_tunde_1789731882199.jpg"
                     alt="Tunde borrower"
                     className="w-6 h-6 rounded-full border border-white object-cover"
                     referrerPolicy="no-referrer"

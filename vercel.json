@@ -39,7 +39,11 @@
       "destination": "/typecredit-app.apk"
     },
     {
-      "source": "/(.*)",
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/((?!assets/|typecredit-app\\.apk).*)",
       "destination": "/index.html"
     }
   ]

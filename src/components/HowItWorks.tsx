@@ -132,7 +132,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenDownload }) => {
               {/* Device Frame */}
               <div className="relative rounded-[24px] overflow-hidden bg-slate-900 border border-slate-200">
                 <img
-                  src="/src/assets/images/app_screen_mockup_1789731836684.jpg"
+                  src="/assets/images/app_screen_mockup_1789731836684.jpg"
                   alt="TypeCredit Mobile App Screen showing loan approval"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
