@@ -1,0 +1,6 @@
+{
+  "name": "TypeCredit – Instant Loans ₦20k to ₦300k",
+  "description": "Instant mobile loans from ₦20,000 up to ₦300,000 in Nigeria. Everyone eligible with fast 2-minute setup, zero paperwork, and direct APK download.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
