@@ -5,6 +5,13 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/typecredit-app.apk",
+      "destination": "https://github.com/XS-DIGITAL/Typecredit-page/releases/download/v1.0/typecredit-app.apk",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/typecredit-app.apk",
