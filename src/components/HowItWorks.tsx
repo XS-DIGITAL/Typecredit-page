@@ -12,7 +12,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenDownload }) => {
     {
       stepNumber: 1,
       title: 'Download & Install the App',
-      description: 'Grab the lightweight typecredit-app.apk file (14.8 MB) directly to your Android device with 1-click.',
+      description: 'Grab the lightweight typecredit-app.apk file (24.6 MB) directly to your Android device with 1-click.',
       detail: 'Installs securely on Android 8.0 and above. No Google Play delays or regional geo-restrictions.',
       icon: Download,
     },

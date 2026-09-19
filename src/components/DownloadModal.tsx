@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Logo } from './Logo';
 import { Download, X, CheckCircle2, QrCode, Smartphone, ShieldCheck, Copy, Check, ExternalLink } from 'lucide-react';
+import { APP_CONFIG } from '../data';
 
 interface DownloadModalProps {
   isOpen: boolean;
@@ -38,8 +39,8 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
   const triggerActualFileDownload = () => {
     try {
       const a = document.createElement('a');
-      a.href = '/typecredit-app.apk';
-      a.download = 'typecredit-app.apk';
+      a.href = APP_CONFIG.apkDownloadUrl;
+      a.download = APP_CONFIG.apkFileName;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -49,7 +50,11 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
   };
 
   const handleCopyLink = () => {
-    navigator.clipboard.writeText(window.location.origin + '/typecredit-app.apk');
+    navigator.clipboard.writeText(
+      APP_CONFIG.apkDownloadUrl.startsWith('http')
+        ? APP_CONFIG.apkDownloadUrl
+        : window.location.origin + APP_CONFIG.apkDownloadUrl
+    );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -78,14 +83,14 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
             {isDownloaded ? 'Download Initialized!' : 'Downloading TypeCredit APK'}
           </h3>
           <p className="text-xs sm:text-sm text-[#3b5e3b] mt-1">
-            Official Android Release · Version 2.4.1 (14.8 MB)
+            Official Android Release · Version {APP_CONFIG.apkVersion} ({APP_CONFIG.apkSize})
           </p>
         </div>
 
         {/* Download Progress Bar */}
         <div className="bg-[#f4faf4] rounded-2xl p-4 border border-[#d6ebd6] mb-6">
           <div className="flex justify-between text-xs font-bold text-[#1a4f1a] mb-1.5">
-            <span>typecredit-app.apk</span>
+            <span>{APP_CONFIG.apkFileName}</span>
             <span>{downloadProgress}%</span>
           </div>
           <div className="w-full h-3 bg-[#e2f0e2] rounded-full overflow-hidden">
@@ -95,7 +100,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
             ></div>
           </div>
           <div className="flex items-center justify-between text-[11px] text-[#486e48] mt-2">
-            <span>⚡ Size: 14.8 MB</span>
+            <span>⚡ Size: {APP_CONFIG.apkSize}</span>
             <span className="flex items-center gap-1 text-[#1e6b1e] font-semibold">
               <ShieldCheck className="w-3.5 h-3.5" /> Clean & Verified
             </span>

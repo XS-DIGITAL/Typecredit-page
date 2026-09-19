@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="flex flex-wrap items-center gap-4 text-xs text-[#436343] pt-1">
               <span className="inline-flex items-center gap-1.5">
                 <Zap className="w-3.5 h-3.5 text-[#2e7d32]" />
-                typecredit-app.apk ready · Android 8.0+
+                typecredit-app.apk ready (24.6 MB) · Android 8.0+
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Shield className="w-3.5 h-3.5 text-[#2e7d32]" />

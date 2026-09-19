@@ -94,7 +94,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenDownload }) => {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#4d6b4d]">
             <span>© 2026 TypeCredit · minimal loan app</span>
-            <span>📍 typecredit-app.apk in src directory · Android Package</span>
+            <span>📍 typecredit-app.apk (24.6 MB) · Android Package</span>
             <span className="inline-flex items-center gap-1">
               <span>🇳🇬</span>
               <span>T + ₦ + C overlay</span>

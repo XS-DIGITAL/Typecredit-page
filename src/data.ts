@@ -1,5 +1,14 @@
 import { Testimonial, FaqItem, LoanTier } from './types';
 
+export const APP_CONFIG = {
+  appName: 'TypeCredit',
+  apkFileName: 'typecredit-app.apk',
+  apkDownloadUrl: '/typecredit-app.apk',
+  apkSize: '24.6 MB',
+  apkVersion: '2.4.1',
+  minAndroidVersion: '8.0+',
+};
+
 export const LOAN_TIERS: LoanTier[] = [
   {
     level: 1,
