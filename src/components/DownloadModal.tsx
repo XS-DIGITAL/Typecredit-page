@@ -153,14 +153,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
             <span>Restart Download</span>
           </button>
 
-          <button
-            type="button"
-            onClick={handleCopyLink}
-            className="inline-flex items-center justify-center gap-1.5 bg-[#f0faf0] hover:bg-[#e4f5e4] text-[#1a551a] font-semibold text-xs sm:text-sm py-3 px-4 rounded-full border border-[#c5e4c5] transition-all"
-          >
-            {copied ? <Check className="w-4 h-4 text-[#2e7d32]" /> : <Copy className="w-4 h-4" />}
-            <span>{copied ? 'Link Copied!' : 'Copy APK Link'}</span>
-          </button>
+
         </div>
 
         {/* Security Footer Note */}
