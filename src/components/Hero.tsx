@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({
               </span>
             </div>
 
-            {/* CTA Group: Download APK & Secondary Buttons */}
+            {/* CTA Group: Download App & Secondary Buttons */}
             <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
               <button
                 id="hero-download-primary-btn"
@@ -66,7 +66,7 @@ export const Hero: React.FC<HeroProps> = ({
                 className="inline-flex items-center justify-center gap-3 bg-[#2e7d32] hover:bg-[#236b27] text-white font-bold text-lg px-8 py-3.5 rounded-full shadow-[0_12px_24px_-8px_rgba(46,125,50,0.4)] border border-[#3f9443] transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
               >
                 <Download className="w-5 h-5 animate-bounce" />
-                <span>Download app (APK)</span>
+                <span>Download app now</span>
               </button>
 
               <button
@@ -79,11 +79,11 @@ export const Hero: React.FC<HeroProps> = ({
               </button>
             </div>
 
-            {/* Sub-label for apk safety */}
+            {/* Sub-label for app safety */}
             <div className="flex flex-wrap items-center gap-4 text-xs text-[#436343] pt-1">
               <span className="inline-flex items-center gap-1.5">
                 <Zap className="w-3.5 h-3.5 text-[#2e7d32]" />
-                typecredit-app.apk ready (24.6 MB) · Android 8.0+
+                Android 8.0+ supported
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Shield className="w-3.5 h-3.5 text-[#2e7d32]" />

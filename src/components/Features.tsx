@@ -95,7 +95,7 @@ export const Features: React.FC = () => {
 
                 <div className="mt-6 pt-4 border-t border-[#eaf2ea] flex items-center gap-2 text-xs font-semibold text-[#1e6b1e]">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#2e7d32]"></span>
-                  <span>Active on Android APK</span>
+                  <span>Instant Mobile Access</span>
                 </div>
               </div>
             );

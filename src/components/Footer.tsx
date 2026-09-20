@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenDownload }) => {
               className="inline-flex items-center justify-center gap-3 bg-[#1d6b1d] hover:bg-[#155415] text-white font-extrabold text-base sm:text-lg px-8 py-4 rounded-full shadow-[0_12px_28px_-8px_rgba(29,107,29,0.45)] border border-[#2d7a2d] transition-all hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
             >
               <Download className="w-5 h-5 animate-bounce" />
-              <span>Download typecredit-app.apk</span>
+              <span>Download app now</span>
             </button>
           </div>
 
@@ -71,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenDownload }) => {
                 onClick={onOpenDownload}
                 className="hover:text-[#186218] transition-colors"
               >
-                Download APK
+                Download App
               </button>
               <span>·</span>
               <a href="#how-it-works-section" className="hover:text-[#186218] transition-colors">
@@ -94,7 +94,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenDownload }) => {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#4d6b4d]">
             <span>© 2026 TypeCredit · minimal loan app</span>
-            <span>📍 typecredit-app.apk (24.6 MB) · Android Package</span>
+            <span>📍 Android 8.0+ supported · 24.6 MB</span>
             <span className="inline-flex items-center gap-1">
               <span>🇳🇬</span>
               <span>T + ₦ + C overlay</span>

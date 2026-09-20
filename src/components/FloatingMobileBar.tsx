@@ -23,7 +23,7 @@ export const FloatingMobileBar: React.FC<FloatingMobileBarProps> = ({ onOpenDown
           className="inline-flex items-center gap-2 bg-[#2e7d32] active:bg-[#236b27] text-white font-bold text-xs px-5 py-2.5 rounded-full shadow-md transition-all shrink-0"
         >
           <Download className="w-3.5 h-3.5" />
-          <span>Download typecredit-app.apk</span>
+          <span>Download app now</span>
         </button>
       </div>
     </div>

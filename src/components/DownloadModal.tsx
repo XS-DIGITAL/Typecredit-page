@@ -80,7 +80,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose })
         <div className="text-center mb-6">
           <Logo size="lg" className="justify-center mb-3" />
           <h3 className="text-2xl font-extrabold text-[#102d10]">
-            {isDownloaded ? 'Download Initialized!' : 'Downloading TypeCredit APK'}
+            {isDownloaded ? 'Download Initialized!' : 'Downloading TypeCredit App'}
           </h3>
           <p className="text-xs sm:text-sm text-[#3b5e3b] mt-1">
             Official Android Release · Version {APP_CONFIG.apkVersion} ({APP_CONFIG.apkSize})

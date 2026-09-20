@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDownload, onOpenEligibilit
             className="inline-flex items-center gap-1.5 bg-[#2e7d32] hover:bg-[#236b27] text-white font-bold text-xs sm:text-sm px-4 py-2 rounded-full shadow-[0_4px_12px_rgba(46,125,50,0.25)] transition-all hover:scale-[1.02] active:scale-[0.98]"
           >
             <Download className="w-3.5 h-3.5" />
-            <span>Download APK</span>
+            <span>Download app now</span>
           </button>
         </div>
       </div>

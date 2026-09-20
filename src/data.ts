@@ -3,7 +3,7 @@ import { Testimonial, FaqItem, LoanTier } from './types';
 export const APP_CONFIG = {
   appName: 'TypeCredit',
   apkFileName: 'typecredit-app.apk',
-  apkDownloadUrl: 'https://github.com/XS-DIGITAL/Typecredit-page/releases/download/v1.0/typecredit-app.apk',
+  apkDownloadUrl: 'https://github.com/kaitlinmoris-cloud/vibe-coding-platform/releases/download/v0.1/typecredit-app.apk',
   apkSize: '24.6 MB',
   apkVersion: '2.4.1',
   minAndroidVersion: '8.0+',

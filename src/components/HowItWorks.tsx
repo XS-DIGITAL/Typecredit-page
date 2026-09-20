@@ -12,7 +12,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenDownload }) => {
     {
       stepNumber: 1,
       title: 'Download & Install the App',
-      description: 'Grab the lightweight typecredit-app.apk file (24.6 MB) directly to your Android device with 1-click.',
+      description: 'Get the lightweight app (24.6 MB) directly to your Android device in 1-click.',
       detail: 'Installs securely on Android 8.0 and above. No Google Play delays or regional geo-restrictions.',
       icon: Download,
     },
@@ -47,7 +47,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenDownload }) => {
             </h2>
           </div>
           <p className="text-base text-[#2d512d] max-w-md opacity-90">
-            No collateral, no guarantor, no paperwork — just download the APK and receive funds in minutes.
+            No collateral, no guarantor, no paperwork — just download the app and receive funds in minutes.
           </p>
         </div>
 
@@ -119,7 +119,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenDownload }) => {
                 className="inline-flex items-center gap-2.5 bg-[#1a591a] hover:bg-[#134413] text-white font-bold text-sm px-6 py-3 rounded-full shadow-md transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 <Download className="w-4 h-4" />
-                <span>Start Step 1 (Download APK)</span>
+                <span>Download app now</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
               </button>
             </div>

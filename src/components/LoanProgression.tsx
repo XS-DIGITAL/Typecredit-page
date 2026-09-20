@@ -161,7 +161,7 @@ export const LoanProgression: React.FC<LoanProgressionProps> = ({ onOpenDownload
                 onClick={onOpenDownload}
                 className="w-full inline-flex items-center justify-center gap-2 bg-[#2e7d32] hover:bg-[#236b27] text-white font-bold text-base py-3.5 rounded-full shadow-[0_8px_20px_rgba(46,125,50,0.25)] transition-all hover:scale-[1.01] active:scale-[0.99]"
               >
-                <span>Apply for {formatNaira(amount)} in APK</span>
+                <span>Apply for {formatNaira(amount)} now</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
               <div className="text-center mt-2.5 text-[11px] text-[#4d6d4d] flex items-center justify-center gap-1.5">
